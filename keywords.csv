@@ -1,0 +1,18 @@
+1
+Pub Title, https://dx.doi.org/10.1016/j.jhep.2022.12.028,,,,,
+Keywords, keyword1, keyword2, keyword3,,,,
+SQ_TP, ibd AND acid stress, E.coli AND ibd,,,,
+SQ_FP, acid resistance NOT ibd, E.coli NOT ibd,,,
+SQ_R, inflammatory AND acid stress, E.coli AND inflammatory,,,,
+2
+Pub Title, https://dx.doi.org/10.1016/j.chom.2022.09.011
+Keywords
+SQ_TP, ibd AND acid stress, E.coli AND ibd
+SQ_FP, cripspr AND ibd NOT microbiome, in vivo screening AND ibd NOT microbiome, mouse AND ibd NOT microbiome
+SQ_R, inflammatory AND acid stress, E.coli AND inflammatory
+3
+Pub Title, https://dx.doi.org/10.1080/19490976.2022.2107386
+Keywords, keyword1, keyword2
+SQ_TP,
+SQ_FP, Glycolipids AND ibd AND microbiome, a-Gal syndrome  AND ibd AND microbiome, red meat allergy  AND ibd AND microbiome
+SQ_R, glycolipids AND gastrointestinal, alpha-gal AND gastrointestinal, red meat AND gastrointestinal
