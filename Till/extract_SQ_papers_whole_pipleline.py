@@ -143,14 +143,14 @@ def extract_xml_files(input_dict, input_dir, output_file):
 
 ## Apply workflow:
 
-# read dir with CSVs and create dict with keywords and SQs
-input_dir = "Keyword_CSVs" 
-keywords_dict = read_keywords_from_directory(input_dir)
+# read dir with CSVs (cannot be nested) and create dict with keywords and SQs
+csv_input_dir = "Keyword_CSVs" 
+keywords_dict = read_keywords_from_directory(csv_input_dir)
 
 # create dict with PubMed IDs for SQs
 pubmed_id_dict = dict_to_pubmed_id(keywords_dict)
 
-# extract XML files for SQs
-input_dir = "add directory with XML files here"
+# extract XML files for SQs (xml input dir can be nested)
+xml_input_dir = "add directory with XML files here"
 output_file = "add output file here"
-extract_xml_files(pubmed_id_dict, input_dir, output_file)
+extract_xml_files(pubmed_id_dict, xml_input_dir, output_file)
